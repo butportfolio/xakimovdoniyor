@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Xakimov Doniyor — Multimedia and Game content . Video, UI/UX, 3D, Photography, Game Design & Graphic Design." />
+  <meta name="keywords" content="Multimedia and Game content, UI UX, 3D modeling, video production, photography, graduation project" />
+  <meta name="author" content="Xakimov Doniyor" />
+  <meta property="og:title" content="Xakimov Doniyor — Multimedia and Game content" />
+  <meta property="og:description" content="4 years of creative work in Video, UI/UX, 3D, Photography and Game Design." />
+  <meta property="og:type" content="website" />
+  <title>Xakimov Doniyor — Multimedia and Game content</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════ -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">XD<span>.</span></a>
+
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#software">Software</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="nav-actions">
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">☀</button>
+    <a href="#contact" class="btn-nav">Hire Me</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#software">Software</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#contact">Contact</a>
+</div>
+
+
+<!-- ══════════════════════════════════════
+     HERO
+══════════════════════════════════════ -->
+<section id="hero">
+  <canvas class="hero-canvas" id="heroCanvas"></canvas>
+  <div class="hero-bg-grid"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+
+  <div class="container hero-inner">
+    <!-- Left: text -->
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        Available for work · Class of 2026
+      </div>
+
+      <h1 class="hero-title">
+        Doniyor
+        <strong>Xakimov</strong>
+      </h1>
+
+      <p class="hero-title-role">Multimedia and Game content</p>
+
+      <p class="hero-bio">
+        A passionate creative technologist at the intersection of visual storytelling, immersive design, and digital experiences. Four years crafting worlds through pixels, polygons, and motion.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#portfolio" class="btn-primary">
+          <span>⬡</span> View Portfolio
+        </a>
+        <a href="#" class="btn-outline" download>
+          <span>↓</span> Download CV
+        </a>
+        <a href="#contact" class="btn-outline">
+          <span>✉</span> Contact Me
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="hero-stat-num">4</span>
+          <span class="hero-stat-label">Years Study</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-num">40+</span>
+          <span class="hero-stat-label">Projects</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-num">12</span>
+          <span class="hero-stat-label">Certifications</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-num">6</span>
+          <span class="hero-stat-label">Disciplines</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: photo frame -->
+    <div class="hero-visual">
+      <div class="hero-photo-frame">
+        <div class="hero-photo-bg"></div>
+        <div class="hero-photo-inner">
+          <div class="hero-photo-placeholder">
+            <div class="hero-photo-avatar"></div>
+            <div class="hero-photo-name-badge">
+              
+            </div>
+          </div>
+        </div>
+        <div class="hero-photo-ornament"></div>
+        <div class="hero-photo-ornament-2"></div>
+      </div>
+
+      <div class="hero-float-card hero-float-card-1">
+        <div class="hero-float-card-icon">🎬</div>
+        <div class="hero-float-card-label">Latest</div>
+        <div class="hero-float-card-value">Grad Film</div>
+      </div>
+      <div class="hero-float-card hero-float-card-2">
+        <div class="hero-float-card-icon">🏆</div>
+        <div class="hero-float-card-label">Award</div>
+        <div class="hero-float-card-value">Best Portfolio</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-indicator">
+    <div class="scroll-indicator-line"></div>
+    Scroll
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     ABOUT
+══════════════════════════════════════ -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <!-- Left -->
+      <div>
+        <p class="section-label reveal">About Me</p>
+        <h2 class="section-title reveal reveal-delay-1">
+          Designing <em>Stories</em><br>That Resonate
+        </h2>
+
+        <p class="about-bio reveal reveal-delay-2">
+          I'm Doniyor Xakimov, a Multimedia and game content graduate from the Bucheon University, Tashkent — Class of 2026. My academic journey has been a four-year exploration of every medium that bridges the physical and digital worlds.
+        </p>
+        <p class="about-bio reveal reveal-delay-3">
+          From my first shaky camera shot in Year 1 to directing a 12-minute short documentary as my capstone project, I've grown into a multidisciplinary designer who believes great work happens at the intersection of craft, curiosity, and culture.
+        </p>
+        <p class="about-bio reveal reveal-delay-4">
+          I'm currently seeking roles in creative media, UX/product design, or motion graphics — ideally at studios and agencies that push the boundaries of what's visually possible.
+        </p>
+
+        <div class="about-tags reveal">
+          <span class="about-tag">Visual Storytelling</span>
+          <span class="about-tag">User Experience</span>
+          <span class="about-tag">3D Environments</span>
+          <span class="about-tag">Motion Design</span>
+          <span class="about-tag">Brand Identity</span>
+          <span class="about-tag">Documentary Film</span>
+          <span class="about-tag">Photography</span>
+          <span class="about-tag">Game Worlds</span>
+        </div>
+      </div>
+
+      <!-- Right: timeline -->
+      <div>
+        <p class="section-label reveal">Education Timeline</p>
+        <div class="timeline reveal reveal-delay-1">
+          <div class="timeline-item">
+            <div class="timeline-year">2022 — Year 1</div>
+            <div class="timeline-title">Foundation in Multimedia</div>
+            <div class="timeline-sub">Bucheon · Tashkent, Uzbekistan</div>
+            <div class="timeline-desc">Foundations of digital design, basic photography, introduction to video production and 2D graphics. GPA: 3.8/4.0</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2022 — Year 2</div>
+            <div class="timeline-title">Intermediate Production</div>
+            <div class="timeline-sub">Bucheon · Tashkent, Uzbekistan</div>
+            <div class="timeline-desc">Advanced camera techniques, UI/UX design principles, advertising campaigns, and intermediate 3D modeling. GPA: 3.9/4.0</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2023 — Year 3</div>
+            <div class="timeline-title">Specialisation & Commercial Work</div>
+            <div class="timeline-sub">Bucheon + Freelance</div>
+            <div class="timeline-desc">Game engine environments, commercial photography, client UI projects, and branding design. First commercial clients. GPA: 4.0/4.0</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2024–25 — Year 4</div>
+            <div class="timeline-title">Graduation & Capstone</div>
+            <div class="timeline-sub">Bucheon · Honours</div>
+            <div class="timeline-desc">Graduation documentary film, advanced Unreal Engine environment, complete UX system design. Graduated with Honours.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     SKILLS
+══════════════════════════════════════ -->
+<section id="skills">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:60px;">
+      <p class="section-label reveal" style="justify-content:center;">Core Disciplines</p>
+      <h2 class="section-title reveal reveal-delay-1">Skills &amp; <em>Expertise</em></h2>
+      <p class="section-subtitle reveal reveal-delay-2" style="margin:0 auto;text-align:center;">Four years of focused practice across six creative disciplines, from pre-production planning to polished delivery.</p>
+    </div>
+
+    <div class="skills-grid">
+
+      <!-- Video Shooting -->
+      <div class="skill-card reveal">
+        <span class="skill-card-icon">🎬</span>
+        <div class="skill-card-title">Video Shooting</div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Camera Operation</span><span class="skill-pct">92%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="92"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Cinematography</span><span class="skill-pct">85%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="85"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Lighting Setup</span><span class="skill-pct">88%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="88"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Audio Recording</span><span class="skill-pct">78%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="78"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Drone Operation</span><span class="skill-pct">72%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="72"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Storyboarding</span><span class="skill-pct">90%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="90"></div></div>
+        </div>
+      </div>
+
+      <!-- UI/UX -->
+      <div class="skill-card reveal reveal-delay-1">
+        <span class="skill-card-icon">✦</span>
+        <div class="skill-card-title">UI / UX Design</div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">User Research</span><span class="skill-pct">87%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="87"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Wireframing</span><span class="skill-pct">94%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="94"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Prototyping</span><span class="skill-pct">91%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="91"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Design Systems</span><span class="skill-pct">83%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="83"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Mobile App Design</span><span class="skill-pct">89%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="89"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Web Design</span><span class="skill-pct">86%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="86"></div></div>
+        </div>
+      </div>
+
+      <!-- 3D Modeling -->
+      <div class="skill-card reveal reveal-delay-2">
+        <span class="skill-card-icon">⬡</span>
+        <div class="skill-card-title">3D Modeling</div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Hard Surface Modeling</span><span class="skill-pct">88%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="88"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Character Modeling</span><span class="skill-pct">76%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="76"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Texturing</span><span class="skill-pct">84%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="84"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">UV Mapping</span><span class="skill-pct">80%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="80"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Rendering</span><span class="skill-pct">85%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="85"></div></div>
+        </div>
+      </div>
+
+      <!-- Game Engine -->
+      <div class="skill-card reveal reveal-delay-3">
+        <span class="skill-card-icon">🎮</span>
+        <div class="skill-card-title">Game Engine</div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Unity</span><span class="skill-pct">78%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="78"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Unreal Engine 5</span><span class="skill-pct">82%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="82"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Scene Building</span><span class="skill-pct">88%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="88"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Asset Integration</span><span class="skill-pct">85%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="85"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Basic Game Mechanics</span><span class="skill-pct">70%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="70"></div></div>
+        </div>
+      </div>
+
+      <!-- Photography -->
+      <div class="skill-card reveal reveal-delay-1">
+        <span class="skill-card-icon">📷</span>
+        <div class="skill-card-title">Photography</div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Portrait Photography</span><span class="skill-pct">92%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="92"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Product Photography</span><span class="skill-pct">88%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="88"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Event Photography</span><span class="skill-pct">85%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="85"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Photo Retouching</span><span class="skill-pct">90%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="90"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Composition</span><span class="skill-pct">93%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="93"></div></div>
+        </div>
+      </div>
+
+      <!-- 2D Graphics -->
+      <div class="skill-card reveal reveal-delay-2">
+        <span class="skill-card-icon">🎨</span>
+        <div class="skill-card-title">2D Computer Graphics</div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Illustration</span><span class="skill-pct">82%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="82"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Vector Graphics</span><span class="skill-pct">91%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="91"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Branding Design</span><span class="skill-pct">87%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="87"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Typography</span><span class="skill-pct">89%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="89"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Poster Design</span><span class="skill-pct">93%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-pct="93"></div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     SOFTWARE
+══════════════════════════════════════ -->
+<section id="software">
+  <div class="container">
+    <div style="margin-bottom:52px;">
+      <p class="section-label reveal">Tools of the Trade</p>
+      <h2 class="section-title reveal reveal-delay-1">Software <em>Proficiency</em></h2>
+      <p class="section-subtitle reveal reveal-delay-2">Professional-grade software used across all disciplines throughout my four years of study and freelance work.</p>
+    </div>
+
+    <div class="software-grid">
+
+      <div class="software-card reveal">
+        <div class="software-icon">🎞</div>
+        <div class="software-name">Premiere Pro</div>
+        <div class="software-level">Intermediate</div>
+        <div class="software-desc">Non-linear video editing, color grading, multicam sequences</div>
+        <div class="software-dots"><span class="software-dot active"></span><span class="software-dot active"></span><span class="software-dot active"></span><span class="software-dot active"></span><span class="software-dot"></span></div>
+      </div>
+
+      <div class="software-card reveal reveal-delay-1">
+        <div class="software-icon">✨</div>
+        <div class="software-name">After Effects</div>
+        <div class="software-level">Intermediate</div>
+        <div class="software-desc">Motion graphics, compositing, visual effects, expressions</div>
+        <div class="software-dots"><span class="software-dot active"></span><span class="software-dot active"></span><span class="software-dot active"></span><span class="software-dot active"></span><span class="software-dot"></span></div>
+      </div>
+
+      <div class="software-card reveal reveal-delay-2">
+        <div class="software-icon">🖼</div>
+        <div class="software-name">Photoshop</div>
+        <div class="software-level">Intermediate</div>
+        <div class="software-desc">Photo retouching, compositing, digital painting, batch editing</div>
+        <div class="software-dots"><span class="software-dot active"></span><span class="software-dot active"></span><span class="software-dot active"></span><span class="software-dot active"></span><span class="software-dot active"></span></div>
+      </div>
+
+      <div class="software-card reveal reveal-delay-3">
+        <div class="software-icon">⬟</div>
+        <div class="software-name">Illustrator</div>
+        <div class="software-level">Intermediate</div>
+        <div class="software-desc">Vector artwork, branding, icon design, illustration systems</div>
+        <div class="software-dots"><span class="software-dot active"></span><span class="software-dot active"></span><span class="software-dot active"></span><span class="software-dot active"></span><span class="software-dot active"></span></div>
+      </div>
+
+
+      <div class="software-card reveal">
+        <div class="software-icon">🎮</div>
+        <div class="software-name">Unity</div>
+        <div class="software-level">Intermediate</div>
+        <div class="software-desc">Scene building, asset integration, basic scripting</div>
+        <div class="software-dots"><span class="software-dot active"></span><span class="software-dot active"></span><span class="software-dot active"></span><span class="software-dot"></span><span class="software-dot"></span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ══════════════════════════════════════
+     PORTFOLIO
+══════════════════════════════════════ -->
+<section id="portfolio">
+  <div class="container">
+    <div class="portfolio-header">
+      <div>
+        <p class="section-label reveal">Selected Work</p>
+        <h2 class="section-title reveal reveal-delay-1">Portfolio <em>Projects</em></h2>
+      </div>
+      <div class="portfolio-filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="video">Video</button>
+        <button class="filter-btn" data-filter="uiux">UI/UX</button>
+        <button class="filter-btn" data-filter="3d">3D</button>
+        <button class="filter-btn" data-filter="game">Game</button>
+        <button class="filter-btn" data-filter="photo">Photo</button>
+        <button class="filter-btn" data-filter="graphic">Graphic</button>
+      </div>
+    </div>
+
+    <div class="portfolio-grid">
+
+      <!-- Y1 -->
+      <div class="project-card reveal"
+           data-category="photo"
+           data-image=""
+           data-title="Photo Shooting"
+           data-year="Year 1 · 2022"
+           data-cat-label="Photography"
+           data-desc="A 30-image street photography series exploring golden-hour light in Tashkent's Old City. Focused on the relationship between architectural geometry and natural light. Captured on a Canon EOS 90D, post-processed in Lightroom."
+           data-tools="Canon EOS 90D,Lightroom,Photoshop">
+        <div class="project-thumb" style="background-image: url(072A6511.jpg);">
+          <div class="project-thumb-inner">📷</div>
+          <div class="project-overlay"><div class="project-overlay-btn">↗</div></div>
+        </div>
+        <div class="project-body">
+          <div class="project-year">Year 1 · 2022</div>
+          <div class="project-title">Photo Shooting</div>
+          <p class="project-desc">30-image street photography series exploring light geometry in Tashkent's Old City.</p>
+          <div class="project-tools">
+            <span class="project-tool">Lightroom</span>
+            <span class="project-tool">Canon EOS 90D</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-1"
+           data-category="graphic"
+           data-image=""
+           data-title=" 2D Computer Graphics"
+           data-year="Year 1 · 2022"
+           data-cat-label="Graphic Design"
+           data-desc="Complete visual identity for the annual UFAT Student Arts Festival. Includes logo, poster system, social media templates, wayfinding, and event merchandise. Inspired by Constructivist poster design with modern typographic sensibility."
+           data-tools="Illustrator,Photoshop,InDesign">
+        <div class="project-thumb" style="background-image: url(2d.jpg);">
+          <div class="project-thumb-inner">🎨</div>
+          <div class="project-overlay"><div class="project-overlay-btn">↗</div></div>
+        </div>
+        <div class="project-body">
+          <div class="project-year">Year 1 · 2022</div>
+          <div class="project-title">2D Computer Graphics</div>
+          <p class="project-desc">Full visual identity system — logo, posters, social templates, merchandise.</p>
+          <div class="project-tools">
+            <span class="project-tool">Illustrator</span>
+            <span class="project-tool">Photoshop</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Y2 -->
+      <div class="project-card reveal reveal-delay-2"
+           data-category="video"
+           data-image=""
+           data-title="Video Shooting"
+           data-year="Year 2 · 2022"
+           data-cat-label="Video Production"
+           data-desc="30-second and 60-second advertising spots for a fictional energy drink brand. Full production pipeline from script, storyboard, shoot to final edit. Features fast-cut editing, practical lighting effects, and original score. Shot on Sony FX3."
+           data-tools="Sony FX3,Premiere Pro,After Effects">
+        <div class="project-thumb" style="background-image: url(video.png);">
+          <div class="project-thumb-inner">🎬</div>
+          <div class="project-overlay"><div class="project-overlay-btn">↗</div></div>
+        </div>
+        <div class="project-body">
+          <div class="project-year">Year 2 · 2022</div>
+          <div class="project-title">Video Shooting</div>
+          <p class="project-desc">30 & 60s ad spots for fictional energy drink. Full production pipeline from script to grade.</p>
+          <div class="project-tools">
+            <span class="project-tool">Sony FX3</span>
+            <span class="project-tool">Premiere Pro</span>
+         
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal"
+           data-category="uiux"
+           data-image=""
+           data-title="UI/UX Design"
+           data-year="Year 2 · 2022"
+           data-cat-label="UI/UX Design"
+           data-desc="End-to-end UX design for a travel planning app targeting solo travellers in Central Asia. Research included 12 user interviews and competitive analysis. Deliverables: 120+ screen Figma prototype, component library, and design specification document."
+           data-tools="Figma,Adobe XD,Photoshop,Principle">
+        <div class="project-thumb" style="background-image: url(uiux.png);">
+          <div class="project-thumb-inner">✦</div>
+          <div class="project-overlay"><div class="project-overlay-btn">↗</div></div>
+        </div>
+        <div class="project-body">
+          <div class="project-year">Year 2 · 2022</div>
+          <div class="project-title">UI/UX Design</div>
+          <p class="project-desc">120-screen UX prototype for a Central Asia solo travel planning app.</p>
+          <div class="project-tools">
+            <span class="project-tool">Figma</span>
+            <span class="project-tool">User Research</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Y3 -->
+      <div class="project-card reveal reveal-delay-1"
+           data-category="game"
+           data-image=""
+           data-title="Game engine basics  "
+           data-year="Year 3 · 2023"
+           data-cat-label="3D Modeling"
+           data-desc="A detailed atmospheric 3D environment depicting an abandoned Victorian library. All 40+ assets modelled and textured from scratch in Blender, with PBR materials created in Substance Painter. Final render achieved photoreal quality using Cycles engine."
+           data-tools="Blender,Substance Painter,Photoshop,Cycles">
+        <div class="project-thumb" style="background-image: url(game.png);">
+          <div class="project-thumb-inner">🎥</div>
+          <div class="project-overlay"><div class="project-overlay-btn">↗</div></div>
+        </div>
+        <div class="project-body">
+          <div class="project-year">Year 3 · 2023</div>
+          <div class="project-title">Game engine basics</div>
+          <p class="project-desc">Photorealistic Victorian library environment with 40+ hand-modelled assets.</p>
+          <div class="project-tools">
+            <span class="project-tool">Blender</span>
+            <span class="project-tool">Substance Painter</span>
+            <span class="project-tool">Cycles</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-2"
+           data-category="game"
+           data-image=""
+           data-title="UNITY HUB"
+           data-year="Year 3 · 2023"
+           data-cat-label="Game Design"
+           data-desc="A playable Unreal Engine 5 environment inspired by ancient Silk Road caravanserai. Uses Lumen for global illumination, Nanite for high-poly geometry, and custom Blueprint-driven day/night cycle. Featured at university GameFest 2023."
+           data-tools="Unreal Engine 5,Blender,Substance Painter,Quixel Megascans">
+        <div class="project-thumb" style="background-image: url(unity.png);">
+          <div class="project-thumb-inner">🎮</div>
+          <div class="project-overlay"><div class="project-overlay-btn">↗</div></div>
+        </div>
+        <div class="project-body">
+          <div class="project-year">Year 3 · 2023</div>
+          <div class="project-title">UNITY HUB</div>
+          <p class="project-desc">Lumen-lit UE5 environment of ancient UNITY caravanserai with day/night cycle.</p>
+          <div class="project-tools">
+            <span class="project-tool">Unreal Engine 5</span>
+            <span class="project-tool">Blender</span>
+            <span class="project-tool">Lumen</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Y4 -->
+      <div class="project-card reveal"
+           data-category="3d"
+           data-image=""
+           data-title="3D  Modeling"
+           data-year="Year 4 · 2024"
+           data-cat-label="Documentary Film"
+           data-desc="A 12-minute documentary exploring the dual identity of Uzbek youth navigating tradition and modernity. Shot over 6 months across Tashkent, Samarkand, and Bukhara. Premiered at UFAT Graduation Showcase and submitted to three international student film festivals."
+           data-tools="Sony FX3,DJI Ronin,DaVinci Resolve,Adobe Audition,Premiere Pro">
+        <div class="project-thumb" style="background-image: url(3d.png);">
+          <div class="project-thumb-inner">🎥</div>
+          <div class="project-overlay"><div class="project-overlay-btn">↗</div></div>
+        </div>
+        <div class="project-body">
+          <div class="project-year">Year 4 · 2024 — Capstone</div>
+          <div class="project-title">3D  Modeling</div>
+          <p class="project-desc">12-minute documentary on Uzbek youth identity. Shot across 3 cities, premiered at UFAT Showcase.</p>
+          <div class="project-tools">
+            <span class="project-tool">Sony FX3</span>
+            <span class="project-tool">DaVinci Resolve</span>
+            <span class="project-tool">DJI Ronin</span>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- ══════════════════════════════════════
+     STATS
+══════════════════════════════════════ -->
+<section id="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <span class="stat-number" data-target="4" data-suffix="">0</span>
+        <span class="stat-label">Years of Study</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="26" data-suffix="+">0+</span>
+        <span class="stat-label">Projects Completed</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="680" data-suffix="+">0+</span>
+        <span class="stat-label">Hours of Practice</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="9" data-suffix="+">0+</span>
+        <span class="stat-label">Clients Served</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="2" data-suffix="">0</span>
+        <span class="stat-label">Certifications Earned</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="1" data-suffix="">0</span>
+        <span class="stat-label">Awards Received</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     GALLERY
+══════════════════════════════════════ -->
+
+
+
+<!-- ══════════════════════════════════════
+     CONTACT
+══════════════════════════════════════ -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <!-- Left -->
+      <div>
+        <p class="section-label reveal">Get In Touch</p>
+        <h2 class="section-title reveal reveal-delay-1">Let's <em>Connect</em></h2>
+        <p class="section-subtitle reveal reveal-delay-2" style="margin-bottom:40px;">Open to creative roles, collaborations, and freelance projects. I'd love to hear about your work and what we might build together.</p>
+
+        <div class="reveal">
+          <div class="contact-info-item">
+            <div class="contact-info-icon">✉</div>
+            <div>
+              <div class="contact-info-label">gmail</div>
+              <div class="contact-info-value">xakimovdoniyor10@gmail.com</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">📞</div>
+            <div>
+              <div class="contact-info-label">Phone</div>
+              <div class="contact-info-value"><a href="tel:+99899 8520110">+99899 8520110</a></div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">✈</div>
+            <div>
+              <div class="contact-info-label">Telegram</div>
+              <div class="contact-info-value"><a href="https://t.me/doniyor1893">@doniyor1893</a></div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">📍</div>
+            <div>
+              <div class="contact-info-label">Location</div>
+              <div class="contact-info-value">Tashkent, Uzbekistan</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-links reveal reveal-delay-2">
+          <a href="#" class="social-link" title="LinkedIn">in</a>
+          <a href="#" class="social-link" title="Behance">Be</a>
+          <a href="#" class="social-link" title="Instagram">✦</a>
+          <a href="#" class="social-link" title="YouTube">▶</a>
+          <a href="#" class="social-link" title="GitHub">⌥</a>
+          <a href="#" class="social-link" title="Dribbble">⬤</a>
+        </div>
+
+        <div class="map-placeholder reveal reveal-delay-3">
+          <div class="map-placeholder-grid"></div>
+          <span>📍</span>
+          <span class="map-placeholder-label">Tashkent, Uzbekistan</span>
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <div class="reveal reveal-delay-2">
+        <form class="contact-form" onsubmit="return false;">
+          <div class="form-group">
+            <label class="form-label">Your Name</label>
+            <input type="text" class="form-input" placeholder="pucheon uz" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-input" placeholder="pucheon@example.com" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Subject</label>
+            <input type="text" class="form-input" placeholder="Project enquiry / Collaboration" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Message</label>
+            <textarea class="form-textarea" placeholder="Tell me about your project or idea…"></textarea>
+          </div>
+          <button type="submit" class="btn-primary" style="align-self:flex-start;">
+            <span>→</span> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     FOOTER
+══════════════════════════════════════ -->
+<footer>
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <div class="nav-logo">XD<span style="color:var(--accent)">.</span></div>
+      <div class="footer-copy">© 2026 Doniyor Xakimov — Multimedia and Game Content of 2026</div>
+    </div>
+
+    <nav class="footer-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+
+<!-- ══════════════════════════════════════
+     MODAL
+══════════════════════════════════════ -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <div class="modal-header">
+      <div></div>
+      <button class="modal-close" id="modalClose">✕</button>
+    </div>
+   <div class="modal-thumb" id="modal-thumb" style="display:flex;align-items:center;justify-content:center;">
+  <span id="modal-thumb-icon" style="font-size:5rem;"></span>
+</div>
+    <div class="modal-body">
+      <h2 class="modal-title" id="modal-title"></h2>
+      <div class="modal-meta">
+        <span>Year: <b id="modal-year"></b></span>
+        <span>Category: <b id="modal-cat"></b></span>
+      </div>
+      <p class="modal-desc" id="modal-desc"></p>
+      <div class="modal-tools" id="modal-tools"></div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Back to top -->
+<button id="back-top" aria-label="Back to top">↑</button>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
